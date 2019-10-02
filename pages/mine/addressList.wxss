@@ -1,0 +1,6 @@
+/* pages/mine/addressList.wxss */
+.list{padding:20rpx; width: 710rpx;}
+.list .item{border-bottom: 1px solid #d5d5d5; font-size: 28rpx; line-height: 2;}
+.list .item .sub{color: #888888;}
+.list .item .sub span{background: #ff9900; padding: 0 10rpx; margin-right: 5rpx;}
+.list .item .action{text-align: right;}

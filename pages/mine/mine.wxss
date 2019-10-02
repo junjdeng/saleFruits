@@ -1,0 +1,20 @@
+/* pages/mine/mine.wxss */
+page{background: #f5f5f5;}
+.mine_card{padding: 20rpx 30rpx; width: 710rpx; background: #19be6b;border-radius: 8rpx;}
+.mine_card_top{padding: 20rpx 0; font-size: 24rpx; color: #ffffff; line-height: 35rpx;}
+.mine_card_top .name{ font-size: 30rpx; font-weight: 600; line-height: 65rpx;}
+.mine_card_top image{width: 100rpx; height: 100rpx; border-radius: 50%; background: gray;}
+
+.page_header{background: #19be6b; height: 100rpx; width: 100%; color: #ffffff;}
+.page_header .item{padding: 0 20rpx; text-align: center; font-size: 26rpx; line-height: 40rpx;}
+.page_header image{width: 160rpx;height: 100rpx;}
+
+.actions{padding: 40rpx 0 20rpx 0; width: 690rpx;background: #ffffff; margin-top: 20rpx;border-radius: 10rpx;}
+.actionBtn{text-align: center; color: #302C3D; font-size: 24rpx;}
+.actionBtn image{width: 50rpx; height: 50rpx;}
+.actionBtn view{line-height: 48rpx;}
+
+.shows{width: 690rpx;}
+.shows .item{background: #ffffff; border-radius: 10rpx;text-align: center;padding: 20rpx 0; line-height: 2; margin-top: 20rpx;}
+.shows .item image{width: 80rpx; height: 60rpx; position: relative; top: 10rpx;}
+.shows .item .sub_title{font-size: 28rpx; color: #888888;}

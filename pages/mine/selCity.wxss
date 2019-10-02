@@ -1,0 +1,5 @@
+/* pages/mine/selCity.wxss */
+page{background: #f5f5f5;}
+.title{text-align: left; color: #888; line-height: 2; width: 710rpx; margin: 10rpx 20rpx;}
+.list{margin: 10rpx 0;}
+.list .item{display: inline-block; width: 190rpx; margin:15rpx 20rpx; padding: 20rpx 10rpx; text-align: center;  font-size: 28rpx; background: #fff; border-radius: 8rpx;}

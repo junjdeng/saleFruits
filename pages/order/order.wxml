@@ -1,0 +1,86 @@
+<!--pages/order/order.wxml-->
+<view class="container">
+  <i-tabs current="{{current}}" class="jx_tabs" color="#19be6b" bindchange="handleChange">
+    <i-tab key="tab1" title="及时达"></i-tab>
+    <i-tab key="tab2" title="拼团"></i-tab>
+    <i-tab key="tab3" title="门店订单"></i-tab>
+    <i-tab key="tab4" title="接龙"></i-tab>
+  </i-tabs>
+
+
+  <view class='list list_fund' wx:if="{{current == 'tab1'}}">
+   11
+  </view>
+
+
+  <view class='list list_ping' wx:if="{{current == 'tab2'}}">
+    <view class='item'>
+      <view class='ping'><text>3人团 | 还差2人</text><span>待成团</span></view>
+      <view class='content flex flex-start'>
+        <view class='img_wrap flex2'>
+         <image src='../../images/bg112.jpg'></image>
+        </view>
+        <view class='flex3'>
+          <view class='title'>[3.99元！3.99元／斤]A级-巨峰葡萄</view>
+          <view class='sku'>1份／约500g</view>
+          <view class='price'>¥3.99 <text>¥9.99</text></view>
+        </view>
+      </view>
+      <view class='price'>提货门店：¥东莞汇景新城店</view>
+      <view class='tips'>
+       <text>成团剩余时间：23:45:09</text>
+       <span>邀请好友</span>
+      </view>
+    </view>
+
+    <view class='item'>
+      <view class='ping'><text>3人团 | 还差2人</text><span>待成团</span></view>
+      <view class='content flex flex-start'>
+        <view class='img_wrap flex2'>
+         <image src='../../images/bg112.jpg'></image>
+        </view>
+        <view class='flex3'>
+          <view class='title'>[3.99元！3.99元／斤]A级-巨峰葡萄</view>
+          <view class='sku'>1份／约500g</view>
+          <view class='price'>¥3.99 <text>¥9.99</text></view>
+        </view>
+      </view>
+      <view class='price'>提货门店：¥东莞汇景新城店</view>
+      <view class='tips'>
+       <text>取消时间：23:45:09</text>
+       <span>重新购买</span>
+      </view>
+    </view>
+  </view>
+
+
+  <view class='list list_store' wx:if="{{current == 'tab3'}}">
+    <view class='item'>
+      <view class='time'>2019-09-09 12:56:55</view>
+      <view class='name'>B级-六八王哈密瓜<span>2.78公斤</span></view>
+      <view class='price'>共7件商品 总价：¥129.98</view>
+      <view class='tips'>
+       <text>已超过7天无法退款</text>
+       <span>联系店家</span>
+      </view>
+    </view>
+
+     <view class='item'>
+      <view class='time'>2019-09-09 12:56:55</view>
+      <view class='name'>B级-六八王哈密瓜<span>2.78公斤</span></view>
+      <view class='price'>共7件商品 总价：<span>¥129.98</span></view>
+      <view class='tips'>
+       <text>已超过7天无法退款</text>
+       <span>联系店家</span>
+      </view>
+    </view>
+  </view>
+
+   <view class='list list_fund' wx:if="{{current == 'tab4'}}">
+44
+  </view>
+
+  <!-- <view class='load_more'>
+    <i-load-more tip="暂无更多数据"  loading="false" />
+  </view> -->
+</view>

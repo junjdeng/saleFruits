@@ -1,0 +1,14 @@
+<!--pages/mine/addressList.wxml-->
+<view class='container'>
+  <view class='list'>
+    <view class='item flex flex-start'>
+      <view class='flex5'>
+        <view>东莞市会展中央1栋2334</view>
+        <view class='sub'><span>家</span>邓军军先生 137****8656</view>
+      </view>
+      <view class='flex1' class='action'><i-icon size="18"  type="brush" /></view>
+    </view>
+  </view>
+
+  <view class='bottom_btn green'><i-icon type="add" size="18" style='position:relative; top:-4rpx;' />新增收货地址</view>
+</view>

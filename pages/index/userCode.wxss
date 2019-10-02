@@ -1,0 +1,13 @@
+/* pages/index/userCode.wxss */
+page{background: #19be6b;}
+.card{background: #fff; margin: 20rpx; padding: 20rpx; width: 670rpx; border-radius: 10rpx; text-align: center; color: #333; line-height: 2;}
+
+.page_header{ height: 100rpx; width: 100%; padding: 50rpx 0; color: #888888;}
+.page_header .item{padding: 0 28rpx; text-align: center; font-size: 26rpx; line-height: 60rpx;}
+.page_header .item .sub_font{font-size: 32rpx; color: #19be6b;}
+
+.ercode{padding-left: 60rpx;}
+.tips{position: relative; top:-60rpx; font-size: 24rpx; color: #888888;}
+.other{background: #f5f5f5; margin: 0 -18rpx;}
+.pay{margin-top: 20rpx;}
+.pay button{width: 400rpx; color: #fff; background: #19be6b;}

@@ -1,0 +1,15 @@
+/* pages/index/account.wxss */
+page{background: #f5f5f5;}
+.header{height: 300rpx; width: 100%; text-align: center; background:#19be6b; color: #fff;}
+.header .sub{font-size: 24rpx;}
+.header .accountNum{margin-top: 100rpx; font-size: 60rpx;}
+
+.list{margin-top: 20rpx; width: 100%; }
+.list .item{margin-bottom: 20rpx;background: #ffffff; padding: 0 20rpx; width: 710rpx; font-size: 24rpx; color: #333333;}
+.list .item view{line-height: 3; border-bottom: 1px solid #f5f5f5;}
+.list .item span{float: right; color: #333333;}
+
+.list_store .item .price{text-align: right;}
+.list_store .item .name{font-size: 28rpx;}
+.list_store .item .tips{color: #888888;}
+.list_store .item .tips span{border: 1px solid #888888; padding:5rpx 15rpx; height: 30rpx; line-height: 30rpx; border-radius: 20rpx; position: relative; top: 15rpx;}

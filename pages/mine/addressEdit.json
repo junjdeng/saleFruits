@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "i-icon": "../../frames/iview/icon/index"
+  },
+  "navigationBarTitleText": "新增/编辑收货地址"
+}

@@ -1,0 +1,18 @@
+<!--pages/mine/selCity.wxml-->
+<view class='container'>
+  <view class='title'> <i-icon type="coordinates" size="18" color="#19be6b" style="position: relative; top:-4rpx;" />已开通服务的城市</view>
+  <view class='list'>
+    <view class="item">
+      <view>深圳市</view>
+    </view>
+    <view class="item">
+      <view>东莞市</view>
+    </view>
+    <view class="item">
+      <view>北京市</view>
+    </view>
+    <view class="item">
+      <view>上海市</view>
+    </view>
+  </view>
+</view>

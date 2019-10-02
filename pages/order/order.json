@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "i-tabs": "../../frames/iview/tabs/index",
+    "i-tab": "../../frames/iview/tab/index",
+    "i-load-more": "../../frames/iview/load-more/index"
+  },
+  "navigationBarTitleText": "订单"
+}

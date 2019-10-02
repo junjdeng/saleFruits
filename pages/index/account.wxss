@@ -1,0 +1,16 @@
+/* pages/index/account.wxss */
+.header{height: 300rpx; width: 100%; text-align: center; background:#19be6b; color: #fff;}
+.header .action{float: right; font-size: 24rpx; padding-right: 20rpx;}
+.header .accountNum{margin-top: 100rpx; font-size: 60rpx;}
+
+
+.pay_btn{background: #f5f5f5; color: #888888;}
+.pay_btn.active{color: #fff; background: #19be6b;}
+
+.list{margin: 20rpx 0;}
+.list .item{display: inline-block; width: 190rpx; margin: 20rpx; padding: 20rpx 10rpx; text-align: center; border: 1px solid #d5d5d5; font-size: 28rpx;}
+.list .item .sub{ font-size: 24rpx; color: #888;}
+.list .item.active{border: 1px solid #19be6b; color: #19be6b;}
+
+.input_wrap{width: 710rpx; margin: 10rpx 20rpx;}
+.input_wrap input{background: #f5f5f5; padding: 20rpx; margin: 10rpx 0;}

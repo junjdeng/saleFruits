@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "i-icon": "../../frames/iview/icon/index"
+  },
+  "navigationBarTitleText": "选择城市"
+}

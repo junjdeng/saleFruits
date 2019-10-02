@@ -1,0 +1,71 @@
+<!--pages/mine/addressEdit.wxml-->
+<view class='container'>
+  <form class='addform' bindsubmit="formSubmit">
+    <view class='form_item flex-between'>
+      <view class='flex1 label'>收货人
+      </view>
+      <view class='flex1'>
+        <input name="id" value='{{contactInfo.id}}' hidden='true'></input>
+        <input name="name" value='{{contactInfo.name}}' placeholder='请输入姓名'></input>
+      </view>
+    </view>
+    <view class='form_item flex-between'>
+      <view class='flex1 label'>
+
+      </view>
+      <view class='flex1'>
+        <radio-group name="sex" class="radio-group" bindchange="radioChange">
+          先生
+          <radio value="1" checked="{{contactInfo.sex == 1 ? true : false}}" /> 女士
+          <radio value="2" checked="{{contactInfo.sex == 2 ? true : false}}" />
+        </radio-group>
+      </view>
+    </view>
+
+    <view class='form_item flex-between'>
+      <view class='flex1 label'>联系电话
+      </view>
+      <view class='flex1'>
+        <input name="phone" value='{{contactInfo.phone}}' placeholder='请输入手机号'></input>
+      </view>
+    </view>
+
+    <view class='form_item flex-between max_margin'>
+      <view class='flex1 label'>选择城市
+      </view>
+      <view class='flex2' style="text-align: right;">
+        <i-icon type="enter" size="18" style='position:relative; top:-4rpx;' />
+      </view>
+    </view>
+    <view class='form_item flex-between'>
+      <view class='flex1 label'>收货地址
+      </view>
+      <view class='flex1'>
+        <input name="company" value='{{contactInfo.company}}' placeholder='输入收货地址'></input>
+      </view>
+    </view>
+    <view class='form_item flex-between'>
+      <view class='flex1 label'>楼号门牌
+      </view>
+      <view class='flex1'>
+        <input name="job" value='{{contactInfo.job}}' placeholder='输入楼号门牌'></input>
+      </view>
+    </view>
+    <view class='form_item flex-between'>
+      <view class='flex1 label'>地址类型
+      </view>
+      <view class='flex2'>
+        <radio-group name="sex" class="radio-group" bindchange="radioChange">
+        父母家
+        <radio value="1" checked="{{contactInfo.sex == 1 ? true : false}}" />公司
+        <radio value="2" checked="{{contactInfo.sex == 2 ? true : false}}" />家
+        <radio value="2" checked="{{contactInfo.sex == 2 ? true : false}}" />
+      </radio-group>
+      </view>
+    </view>
+
+    <view class="actions">
+      <button form-type="submit">保存地址</button>
+    </view>
+  </form>
+</view>

@@ -1,0 +1,24 @@
+/* pages/order/order.wxss */
+page{background: #F5F5F5;}
+.jx_tabs{width: 100%; background: #fff; position: fixed; top: 0; z-index: 99;}
+.list{margin-top: 94rpx; width: 100%; }
+.list .item{margin-bottom: 20rpx;background: #ffffff; padding: 0 20rpx; width: 710rpx; font-size: 24rpx; color: #333333;}
+.list .item view{line-height: 3; border-bottom: 1px solid #f5f5f5;}
+.list .item span{float: right; color: #333333;}
+
+.list_store .item .price{text-align: right;}
+.list_store .item .name{font-size: 28rpx;}
+.list_store .item .tips{color: #888888;}
+.list_store .item .tips span{border: 1px solid #888888; padding:5rpx 15rpx; height: 30rpx; line-height: 30rpx; border-radius: 20rpx; position: relative; top: 15rpx;}
+
+.list_ping .item .content{padding: 10rpx; align-items: flex-start;}
+.list_ping .item .content view{border: none;}
+.list_ping .item .content .img_wrap{width: 260rpx; height: 260rpx; margin-right: 10rpx;}
+.list_ping .item .content .img_wrap image{width: 100%; height: 100%;}
+.list_ping .item .content .title{font-size: 28rpx; line-height: 1.5;}
+.list_ping .item .content .sku{color: #888888;}
+.list_ping .item .content .price{font-size: 32rpx;}
+.list_ping .item .content .price text{font-size: 26rpx;text-decoration:line-through}
+.list_ping .item .ping{color:#ff9900}
+.list_ping .item .ping span{color:#ff9900}
+.list_ping .item .tips span{background: #ff9900; color: #fff; padding:10rpx 15rpx; height: 30rpx; line-height: 30rpx; border-radius: 25rpx; position: relative; top: 15rpx;}

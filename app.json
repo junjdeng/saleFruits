@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/userCode",
+    "pages/index/account",
+    "pages/index/accountList",
+    "pages/find/find",
+    "pages/order/order",
+    "pages/mine/mine",
+    "pages/mine/addressList",
+    "pages/mine/addressEdit",
+    "pages/mine/selCity"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#19be6b",
+    "navigationBarTitleText": "买果果",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#979797",
+    "selectedColor": "#3478FF",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "selectedIconPath": "images/tabbar1_seled.png",
+        "iconPath": "images/tabbar1.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/tabbar2_seled.png",
+        "iconPath": "images/tabbar2.png",
+        "pagePath": "pages/find/find",
+        "text": "拼团"
+      },
+      {
+        "selectedIconPath": "images/tabbar3_seled.png",
+        "iconPath": "images/tabbar3.png",
+        "pagePath": "pages/order/order",
+        "text": "订单"
+      },
+      {
+        "selectedIconPath": "images/tabbar4_seled.png",
+        "iconPath": "images/tabbar4.png",
+        "pagePath": "pages/mine/mine",
+        "text": "会员"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,29 @@
+<!--pages/index/userCode.wxml-->
+<view class='container'>
+  <view class='card'>
+    <view>普卡会员：137****5667</view>
+    <view class='flex flex-between page_header'>
+      <view class='flex1 item'>
+        <view class='sub_font'>500</view>
+        <view>积分</view>
+      </view>
+      <view class='flex1 item'>
+        <view class='sub_font'>0</view>
+        <view>优惠券</view>
+      </view>
+      <view class='flex1 item'>
+        <view class='sub_font'>0</view>
+        <view>钱包／充值</view>
+      </view>
+    </view>
+    <view>8187**** **** **** *查看数字</view>
+    <view class='ercode'>
+      <canvas canvas-id="barcode" />
+      <view class='tips'>会员码自动更新，请在店内消费时使用</view>
+    </view>
+    <view class='other'>其他支付方式</view>
+    <view class='pay'>
+      <button>微信支付</button>
+    </view>
+  </view>
+</view>

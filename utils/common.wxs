@@ -1,0 +1,38 @@
+var wxmlFromat = {
+  getFixedNumber: function (num,fixed) {
+    return num.toFixed(fixed);
+  },
+
+  getRangeColor: function (index) {
+    switch (index) {
+      case 0:
+        return "#FFCC00"
+        break;
+      case 1:
+        return "#979797"
+        break;
+      case 2:
+        return "#FF4F00"
+        break;
+      case exp:
+        return "#ffffff"
+        break;
+      default:
+        return "#ffffff"
+    }
+  },
+
+  getSubString: function (string,start,end) {
+    string = string+""
+    return string.substring(start,end)
+  }
+
+
+
+}
+module.exports = {
+  getFixedNumber: wxmlFromat.getFixedNumber,
+  getRangeColor: wxmlFromat.getRangeColor,
+  getSubString: wxmlFromat.getSubString
+  
+}

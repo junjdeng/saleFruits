@@ -1,0 +1,21 @@
+<!--pages/index/account.wxml-->
+<view class='container'>
+  <view class='header'>
+    <view class='accountNum'>¥500.00</view>
+    <view class='sub'>当前余额</view>
+  </view>
+
+  <view class='list list_store'>
+    <view class='item'>
+      <view class='time'>2019-09-09 12:56:55</view>
+      <view class='name'>B级-六八王哈密瓜<span>2.78公斤</span></view>
+      <view class='price'>共7件商品 总价：¥129.98</view>
+    </view>
+
+     <view class='item'>
+      <view class='time'>2019-09-09 12:56:55</view>
+      <view class='name'>B级-六八王哈密瓜<span>2.78公斤</span></view>
+      <view class='price'>共7件商品 总价：<span>¥129.98</span></view>
+    </view>
+  </view>
+</view>

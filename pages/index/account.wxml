@@ -1,0 +1,35 @@
+<!--pages/index/account.wxml-->
+<view class='container'>
+  <view class='header'>
+    <view class='action'>查看余额消费明细
+      <i-icon type="enter" style="position: relative; top:-4rpx;" />
+    </view>
+    <view class='accountNum'>¥500.00</view>
+  </view>
+
+  <view class='list'>
+    <view class="item active">
+      <view>100元</view>
+      <view class='sub'>送0.00元</view>
+    </view>
+     <view class="item">
+      <view>100元</view>
+      <view class='sub'>送0.00元</view>
+    </view>
+     <view class="item">
+      <view>100元</view>
+      <view class='sub'>送0.00元</view>
+    </view>
+     <view class="item">
+      <view>100元</view>
+      <view class='sub'>送0.00元</view>
+    </view>
+  </view>
+
+  <view class='input_wrap'>
+     <text>其他金额</text><input placeholder='请输入金额，最低1元'></input>
+  </view>
+
+
+  <view class='bottom_btn pay_btn active'>立即充值</view>
+</view>

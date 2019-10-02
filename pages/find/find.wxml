@@ -1,0 +1,74 @@
+<view class="container">
+  <view class='home_header'>
+    <view class='flex flex-start pd20'>
+      <view class='flex5'>
+        <input class="weui-input" placeholder="提货门店：东莞康乐南路店" />
+        <i-icon type="play_fill" style="position: absolute; top:15rpx; right:160rpx;" />
+      </view>
+      <view class='flex1'>
+        <i-icon type="search" size="26" style="position: relative; top:-4rpx;" />搜索
+      </view>
+    </view>
+  </view>
+
+  <view class='list'>
+    <view class='list_content'>
+      <view class="item shadow">
+        <image src='../../images/bg112.jpg'></image>
+        <view class='num'><span>3人团</span></view>
+        <view class='content'>
+          <view class='title'>【香印】A级-下音葡萄(中)/500g</view>
+          <view class='sku'>1份/约500g</view>
+          <view class='flex flex-start'>
+            <view class='flex4 price'>¥199.00
+              <span class='market_price'>¥500.00</span>
+              <span class='count'>已团9999件</span>
+            </view>
+            <view class='flex2 action'>
+              <span>去拼团
+                <i-icon type="enter" style="position: relative; top:-4rpx;" />
+              </span>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="item shadow">
+        <image src='../../images/bg112.jpg'></image>
+        <view class='content'>
+          <view class='title'>【香印】A级-下音葡萄(中)/500g</view>
+          <view class='sku'>1份/约500g</view>
+          <view class='flex flex-start'>
+            <view class='flex4 price'>¥199.00
+              <span class='market_price'>¥500.00</span>
+              <span class='count'>已团9999件</span>
+            </view>
+            <view class='flex2 action'>
+              <span>去拼团
+                <i-icon type="enter" style="position: relative; top:-4rpx;" />
+              </span>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="item shadow">
+        <image src='../../images/bg112.jpg'></image>
+        <view class='num'><span>3人团</span></view>
+        <view class='content'>
+          <view class='title'>【香印】A级-下音葡萄(中)/500g</view>
+          <view class='sku'>1份/约500g</view>
+          <view class='flex flex-start'>
+            <view class='flex4 price'>¥199.00
+              <span class='market_price'>¥500.00</span>
+              <span class='count'>已团9999件</span>
+            </view>
+            <view class='flex2 action'>
+              <span>去拼团
+                <i-icon type="enter" style="position: relative; top:-4rpx;" />
+              </span>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

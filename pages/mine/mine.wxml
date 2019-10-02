@@ -1,0 +1,62 @@
+<view class="container">
+  <view class='mine_card'>
+    <view class='mine_card_top flex-start'>
+      <view class='flex1'>
+        <image src='{{loginUserInfo.header_img}}'></image>
+      </view>
+      <view class='flex5' style='padding-left:20rpx;'>
+        <view class='name'>137****8636</view>
+        <view>普卡会员
+          <i-icon type="enter" size="18" style='position:relative; top:-4rpx;' />
+        </view>
+      </view>
+    </view>
+    <view class='flex flex-between page_header'>
+      <view class='flex1 item'>
+        <view class='sub_font'>500</view>
+        <view>积分</view>
+      </view>
+      <view class='flex1 item'>
+        <view class='sub_font'>0</view>
+        <view>优惠券</view>
+      </view>
+      <view class='flex1 item'>
+        <view class='sub_font'>0</view>
+        <view>钱包／充值</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='shows flex flex-start'>
+     <view class='flex1 item' style='margin-right:20rpx;'>
+       <view class='title'><image src='../../images/mine8.png'></image>签到</view>
+       <view class='sub_title'>赢积分 集果卡 换好礼</view>
+     </view>
+     <view class='flex1 item'>
+       <view class='title'><image src='../../images/mine8.png'></image>会员码</view>
+       <view class='sub_title'>到店扫码  便捷支付</view>
+     </view>
+  </view>
+
+  <view class='actions'>
+    <view class='flex-start'>
+      <view class='actionBtn flex1' data-url='/pages/mine/tripinfo' bindtap="navTo">
+        <image src='../../images/mine1.png'></image>
+        <view>地址管理</view>
+      </view>
+      <view class='actionBtn flex1' data-url='/pages/mine/insuranceinfo' bindtap="navTo">
+        <image src='../../images/mine2.png'></image>
+        <view>客服帮助</view>
+      </view>
+      <view class='actionBtn flex1' data-url='/pages/fund/fund' bindtap="switchTo">
+        <image src='../../images/mine3.png'></image>
+        <view>意见反馈</view>
+      </view>
+      <view class='actionBtn flex1' data-url='/pages/mine/myPayOrderList' bindtap="navTo">
+        <image src='../../images/mine10.png'></image>
+        <view>设置</view>
+      </view>
+    </view>
+  </view>
+
+</view>
