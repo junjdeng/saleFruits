@@ -1,0 +1,62 @@
+<!--pages/index/proDetail.wxml-->
+<view class='container'>
+  <view class='list'>
+    <view class='list_header'>商品列表    
+    </view>
+    <view class='item flex flex-start '>
+      <view class='flex1 '>
+         <radio class="radio"  checked="false"></radio>
+      </view>
+      <view class='flex2'>
+        <image src='../../images/bg112.jpg '></image>
+      </view>
+      <view class='flex5 content'>
+          <view class='title'>【香印】A级-下音葡萄(中)/500g</view>
+          <view class='sku'>1份／约500g</view>
+          <view class='sub_title'>仅剩3件</view>
+          <view class='flex flex-start'>
+            <view class='flex1'>
+              <view class='price'>¥199.00</view>
+            </view>
+             <view class='flex2 shopcar_wrap'>
+                <i-input-number value="{{value1}}" min="1" max="100" bindchange="handleChange1" />
+            </view>
+          </view>
+      </view>
+    </view>
+    <view class='item flex flex-start '>
+      <view class='flex1 '>
+         <radio class="radio"></radio>
+      </view>
+      <view class='flex2'>
+        <image src='../../images/bg112.jpg '></image>
+      </view>
+      <view class='flex5 content'>
+          <view class='title'>【香印】A级-下音葡萄(中)/500g</view>
+          <view class='sku'>1份／约500g</view>
+          <view class='sub_title'>仅剩3件</view>
+          <view class='flex flex-start'>
+            <view class='flex1'>
+              <view class='price'>¥199.00</view>
+            </view>
+             <view class='flex2 shopcar_wrap'>
+                <i-input-number value="{{value1}}" min="1" max="100" bindchange="handleChange1" />
+            </view>
+          </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='bottom_btns '>
+    <view class='flex flex-start '>
+     <view class='flex4 shopcar '>合计： ¥99.00
+        <span>
+          (不含运费)
+        </span>
+      </view>
+      <view class='flex1 ' style='border-right: 1px solid #f5f5f5; '>
+        <view>结算</view>
+      </view>
+    </view>
+  </view>
+</view>

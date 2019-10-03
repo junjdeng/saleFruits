@@ -39,7 +39,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 6,
 			"list": [
 				{
 					"id": -1,
@@ -49,9 +49,9 @@
 					"scene": null
 				},
 				{
-					"id": -1,
+					"id": 1,
 					"name": "order",
-					"pathName": "pages/order/order",
+					"pathName": "pages/order/shopCar",
 					"query": "",
 					"scene": null
 				},
@@ -73,6 +73,20 @@
 					"id": 4,
 					"name": "user",
 					"pathName": "pages/index/accountList",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "detail",
+					"pathName": "pages/index/proDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "order",
+					"pathName": "pages/index/categrayProList",
 					"query": "",
 					"scene": null
 				}

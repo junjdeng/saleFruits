@@ -1,0 +1,138 @@
+<!--pages/index/proDetail.wxml-->
+<view class='container'>
+  <view class='header'>
+    <view class='slider_ad'>
+      <swiper indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="3000">
+        <swiper-item>
+          <view class="swiper-item">
+            <image src='../../images/bg112.jpg'></image>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class="swiper-item">
+            <image src='../../images/bg112.jpg'></image>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class="swiper-item">
+            <image src='../../images/bg112.jpg'></image>
+          </view>
+        </swiper-item>
+      </swiper>
+    </view>
+
+    <view class='flex-start header_wrapper'>
+      <view class='flex3  price'>
+        <text>10人团</text> ¥199.00
+        <span class='market_price'>¥500.00</span>
+      </view>
+      <view class='flex2 time'>
+        <view style='font-size:28rpx;'>距离结束</view>
+        <view>12时12分12秒</view>
+      </view>
+    </view>
+
+    <view class='content'>
+      <view class='title'>【香印】A级-下音葡萄(中)/500g</view>
+      <view class='sub_title'>水晶帘动微风起，满架蔷薇一院香</view>
+      <view class='sku'>1份／约500g
+        <span>已团500件</span>
+      </view>
+      <view class='flex flex-start promise'>
+        <view class='flex5'>
+          <i-icon type="success" size="18" color="#19be6b" style="position: relative; top:-4rpx;" />三无退货
+        </view>
+        <view class='flex5'>
+          <i-icon type="success" size="18" color="#19be6b" style="position: relative; top:-4rpx;" />特约供货地
+        </view>
+        <view class='flex5'>
+          <i-icon type="success" size="18" color="#19be6b" style="position: relative; top:-4rpx;" />品控质检
+        </view>
+        <view class='flex1'>
+          <i-icon type="enter" style="position: relative; top:-4rpx;" />
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='taketime'>
+    <view>
+      <span>提货时间：</span>10月1日-10月10日
+    </view>
+  </view>
+
+  <view class='list'>
+    <view class='list_header'>小伙伴们在开团，可以直接开始
+      <span>查看全部
+        <i-icon type="enter" style="position: relative; top:-4rpx;" />
+      </span>
+    </view>
+    <view class='item flex flex-start '>
+      <view class='flex1 '>
+        <image src='../../images/bg112.jpg '></image>
+      </view>
+      <view class='flex2 '>
+        飞天小白龙
+      </view>
+      <view class='felx2 '>
+        <view>差5人成团</view>
+        <view>剩余12:23:45</view>
+      </view>
+      <view class='flex2 action'>
+        <span>去参团</span>
+      </view>
+    </view>
+    <view class='item flex flex-start '>
+      <view class='flex1 '>
+        <image src='../../images/bg112.jpg '></image>
+      </view>
+      <view class='flex2 '>
+        飞天小白龙
+      </view>
+      <view class='felx2 '>
+        <view>差5人成团</view>
+        <view>剩余12:23:45</view>
+      </view>
+      <view class='flex2 action'>
+        <span>去参团</span>
+      </view>
+    </view>
+  </view>
+
+  <view class='detail '>
+    <view class='title '>
+      <text>商品详情</text>
+    </view>
+    <view class='table '>
+      <view class='cell '>
+        <span>产地</span>新西兰</view>
+      <view class='cell '>
+        <span>产地</span>新西兰</view>
+      <view class='cell '>
+        <span>产地</span>新西兰</view>
+      <view class='cell '>
+        <span>产地</span>新西兰</view>
+      <view class='cell '>
+        <span>产地</span>新西兰</view>
+      <view class='cell '>
+        <span>产地</span>新西兰</view>
+    </view>
+    <view class='html '>
+
+    </view>
+  </view>
+
+  <view class='bottom_btns '>
+    <view class='flex flex-start '>
+      <view class='flex1 ' style='border-right: 1px solid #f5f5f5; '>
+        <i-icon type="homepage" size="24" color="#888888" />
+        <view>首页</view>
+      </view>
+      <view class='flex4 shopcar '>¥3.99 一键开团
+        <span>(单卖价
+          <text>¥4.99)</text>
+        </span>
+      </view>
+    </view>
+  </view>
+</view>

@@ -70,32 +70,59 @@
         <view class='content'>
           <view class='title'>【香印】A级-下音葡萄(中)/500g</view>
           <view class='sub_title'>水晶帘动微风起，满架蔷薇一院香</view>
-          <view class='sku'>1份/约500g</view>
-          <view class='price'>¥199.00</view>
-          <view class='market_price'>¥500.00</view>
-          <view class='tips'><span>不可用券</span></view>
+          <view class='sku'>1份／约500g</view>
+          <view class='flex flex-start'>
+            <view class='flex3'>
+              <view class='price'>¥199.00</view>
+              <view class='market_price'>¥500.00</view>
+              <view class='tips'>
+                <span>不可用券</span>
+              </view>
+            </view>
+            <view class='flex1 shopcar_wrap'>
+               <span><i-icon type="publishgoods_fill" size="24" color="#ffffff" /></span> 
+            </view>
+          </view>
         </view>
       </view>
       <view class="item">
         <image src='../../images/bg112.jpg'></image>
         <view class='content'>
-           <view class='title'>【香印】A级-下音葡萄(中)/500g</view>
+          <view class='title'>【香印】A级-下音葡萄(中)/500g</view>
           <view class='sub_title'>水晶帘动微风起，满架蔷薇一院香</view>
           <view class='sku'>1份／约500g</view>
-          <view class='price'>¥199.00</view>
-          <view class='market_price'>¥500.00</view>
-           <view class='tips'><span>不可用券</span></view>
+          <view class='flex flex-start'>
+            <view class='flex3'>
+              <view class='price'>¥199.00</view>
+              <view class='market_price'>¥500.00</view>
+              <view class='tips'>
+                <span>不可用券</span>
+              </view>
+            </view>
+            <view class='flex1 shopcar_wrap'>
+               <span><i-icon type="publishgoods_fill" size="24" color="#ffffff" /></span> 
+            </view>
+          </view>
         </view>
       </view>
       <view class="item">
         <image src='../../images/bg112.jpg'></image>
-         <view class='content'>
-           <view class='title'>【香印】A级-下音葡萄(中)/500g</view>
+        <view class='content'>
+          <view class='title'>【香印】A级-下音葡萄(中)/500g</view>
           <view class='sub_title'>水晶帘动微风起，满架蔷薇一院香</view>
           <view class='sku'>1份／约500g</view>
-          <view class='price'>¥199.00</view>
-          <view class='market_price'>¥500.00</view>
-          <view class='tips'><span>不可用券</span></view>
+          <view class='flex flex-start'>
+            <view class='flex3'>
+              <view class='price'>¥199.00</view>
+              <view class='market_price'>¥500.00</view>
+              <view class='tips'>
+                <span>不可用券</span>
+              </view>
+            </view>
+            <view class='flex1 shopcar_wrap'>
+               <span><i-icon type="publishgoods_fill" size="24" color="#ffffff" /></span> 
+            </view>
+          </view>
         </view>
       </view>
     </view>

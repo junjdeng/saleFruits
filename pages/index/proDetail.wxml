@@ -1,0 +1,96 @@
+<!--pages/index/proDetail.wxml-->
+<view class='container'>
+  <view class='header'>
+    <view class='slider_ad'>
+      <swiper indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="3000">
+        <swiper-item>
+          <view class="swiper-item">
+            <image src='../../images/bg112.jpg'></image>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class="swiper-item">
+            <image src='../../images/bg112.jpg'></image>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class="swiper-item">
+            <image src='../../images/bg112.jpg'></image>
+          </view>
+        </swiper-item>
+      </swiper>
+    </view>
+
+    <view class='content'>
+      <view class='title'>【香印】A级-下音葡萄(中)/500g</view>
+      <view class='sub_title'>水晶帘动微风起，满架蔷薇一院香</view>
+      <view class='sku'>1份／约500g</view>
+      <view class='price'>¥199.00
+        <span class='market_price'>¥500.00</span>
+      </view>
+      <view class='flex flex-start promise'>
+        <view class='flex5'>
+          <i-icon type="success" size="18" color="#19be6b" style="position: relative; top:-4rpx;" />三无退货
+        </view>
+        <view class='flex5'>
+          <i-icon type="success" size="18" color="#19be6b" style="position: relative; top:-4rpx;" />特约供货地
+        </view>
+        <view class='flex5'>
+          <i-icon type="success" size="18" color="#19be6b" style="position: relative; top:-4rpx;" />品控质检
+        </view>
+        <view class='flex1'>
+          <i-icon type="enter" style="position: relative; top:-4rpx;" />
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='actives'>
+    <view class='flex flex-start'>
+      <view class='flex2' class='title'>活动</view>
+      <view class='flex5' class='content'>
+        <view>
+          <span>赠送积分</span>购买本商品可获得69积分</view>
+        <view>
+          <span>不可用券</span>特价商品不可用券</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='detail'>
+    <view class='title'>
+      <text>商品详情</text>
+    </view>
+    <view class='table'>
+      <view class='cell'>
+        <span>产地</span>新西兰</view>
+      <view class='cell'>
+        <span>产地</span>新西兰</view>
+      <view class='cell'>
+        <span>产地</span>新西兰</view>
+      <view class='cell'>
+        <span>产地</span>新西兰</view>
+      <view class='cell'>
+        <span>产地</span>新西兰</view>
+      <view class='cell'>
+        <span>产地</span>新西兰</view>
+    </view>
+    <view class='html'>
+
+    </view>
+  </view>
+
+  <view class='bottom_btns'>
+    <view class='flex flex-start'>
+      <view class='flex1' style='border-right: 1px solid #f5f5f5;'>
+        <i-icon type="publishgoods_fill" size="24" color="#888888" />
+        <view>购物车</view>
+      </view>
+      <view class='flex1'>
+        <i-icon type="send" size="22" color="#888888"/>
+        <view>分享</view>
+      </view>
+      <view class='flex3 shopcar'>加入购物车</view>
+    </view>
+  </view>
+</view>

@@ -26,5 +26,7 @@ page{background: #f5f5f5;}
 .list_content .item .content .market_price{font-size: 22rpx;line-height: 2; color: #888888;text-decoration:line-through}
 .list_content .item .content .tips{font-size: 18rpx; color: #19be6b;}
 .list_content .item .content .tips span{border-radius: 4rpx; border: 1px solid #19be6b;padding: 0rpx 5rpx;}
+.list_content .item .content .shopcar_wrap{text-align: right;}
+.list_content .item .content .shopcar_wrap span{background: #19be6b; border-radius: 50%; height: 100rpx; width: 100rpx; padding: 10rpx;}
 
 .sub_font{font-size: 22rpx;}

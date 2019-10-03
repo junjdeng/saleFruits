@@ -1,0 +1,23 @@
+/* pages/index/proDetail.wxss */
+page{background: #f5f5f5;}
+.list{margin:0 20rpx; background: #fff; padding: 10rpx 20rpx 0 20rpx; width: 710rpx;}
+.list_header{font-size: 26rpx;line-height: 50rpx; color: #333;border-bottom: 1px solid #d5d5d5;}
+.list_header span{float: right; font-size: 24rpx; color: #888888;}
+.list .item{font-size: 24rpx; color: #333; border-bottom: 1px solid #d5d5d5; padding: 10rpx 0;}
+.list .item image{width: 200rpx; height: 200rpx; border-radius: 10rpx;}
+.list .item .action{text-align: right;}
+.list .item span{background: #ff9900; color: #fff; font-size: 24rpx;padding: 10rpx 20rpx; border-radius: 37rpx;}
+
+.list .item .content{padding: 10rpx;}
+.list .item .content .title{font-size: 28rpx; color: #333333;}
+.list .item .content .sub_title{font-size: 22rpx; color: #ed3f14;}
+.list .item .content .sku{font-size: 20rpx; color: #888888;}
+.list .item .content .price{font-size: 30rpx; line-height: 2; color: #ed3f14;}
+.list .item .content .market_price{font-size: 22rpx;line-height: 2; color: #888888;text-decoration:line-through}
+.list .item .content .tips{font-size: 18rpx; color: #19be6b;}
+.list .item .content .tips span{border-radius: 4rpx; border: 1px solid #19be6b;padding: 0rpx 5rpx;}
+.list .item .content .shopcar_wrap{text-align: right;transform:scale(0.8);}
+
+.bottom_btns{width: 100%; height: 80rpx; position: fixed; bottom: 0; background: #19be6b; text-align: center; border-top: 1px solid #f5f5f5; font-size: 28rpx; color: #fff;}
+.bottom_btns .shopcar{background: #fff; text-align: left; padding-left: 20rpx; color: #333; font-size: 28rpx; line-height: 80rpx;}
+.bottom_btns .shopcar span{font-size: 20rpx;}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "i-icon": "../../frames/iview/icon/index",
+    "i-input-number": "../../frames/iview/input-number/index"
+  },
+  "navigationBarTitleText": "购物车"
+}
