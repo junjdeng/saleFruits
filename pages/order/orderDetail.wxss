@@ -1,0 +1,29 @@
+/* pages/order/pingSureOrder.wxss */
+page{background: #f5f5f5;}
+.step_wrap{background: #fff; padding: 20rpx; width: 710rpx; margin-bottom: 10rpx;}
+
+.take_store{background: #fff; padding: 20rpx; width: 710rpx; margin-bottom: 20rpx; font-size: 28rpx;
+ color: #888; line-height: 2;}
+ .take_store .store_status{color: #ff9900; border-bottom: 1px solid #f5f5f5;}
+ .take_store .store_name{color: #333; font-size: 32rpx;}
+ .take_store span{float: right;}
+
+ .take_time{background: #fff; padding: 20rpx; width: 710rpx; margin-bottom: 20rpx; font-size: 32rpx;
+ color: #000; line-height: 1.6; text-align: center;}
+
+.list{width: 100%; }
+.list .item{background: #ffffff; padding: 20rpx; width: 710rpx; font-size: 24rpx; color: #333333;}
+.list .item view{line-height: 2.5; }
+.list .item .content{padding: 10rpx; align-items: flex-start;}
+.list .item .content view{border: none;}
+.list .item .content .img_wrap{width: 260rpx; height: 260rpx; margin-right: 10rpx;}
+.list .item .content .img_wrap image{width: 100%; height: 100%;}
+.list .item .content .title{font-size: 28rpx; line-height: 1.5;}
+.list .item .content .sku{color: #888888;}
+.list .item .content .price{font-size: 32rpx; color: #ff9900;}
+.list .item .content .price text{font-size: 26rpx;text-decoration:line-through; color: #888;}
+
+.order_data{margin-top: 20rpx; font-size: 28rpx; color: #333;line-height: 1.5;background: #fff; padding: 20rpx; width: 710rpx; text-align: right;}
+
+.bottom_btns{width: 100%; height: 80rpx; position: fixed; bottom: 0; background: #fff; text-align: center; border-top: 1px solid #f5f5f5; font-size: 28rpx;}
+.bottom_btns .shopcar{background: #ff9900; color: #fff; font-size: 28rpx; line-height: 80rpx;}

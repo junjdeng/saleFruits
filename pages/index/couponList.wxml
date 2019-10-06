@@ -1,0 +1,42 @@
+<!--pages/order/order.wxml-->
+<view class="container">
+  <i-tabs current="{{current}}" class="jx_tabs" color="#19be6b" bindchange="handleChange">
+    <i-tab key="tab1" title="未使用(0)"></i-tab>
+    <i-tab key="tab2" title="已使用(0)"></i-tab>
+    <i-tab key="tab3" title="已过期(2)"></i-tab>
+  </i-tabs>
+
+
+  <view class='list list_ping' wx:if="{{current == 'tab1'}}">
+     <view class='item'>
+      <view class='ping'><text>满减券</text><span>未使用</span></view>
+      <view class='content flex flex-start'>
+       <view class='flex2'>
+          <view class='coupon_num'>¥10</view>
+        </view>
+        <view class='flex3'>
+          <view class='title'>10元好吃水果券</view>
+          <view class='sku'>满59元可用</view>
+        </view>
+      </view>
+      <view class='price'>2019-08-08 17:56 至 2019-10-08 17:56</view>
+      <view class='tips'>
+       <text>部分特价水果不可用</text>
+      </view>
+    </view>
+  </view>
+
+
+  <view class='list' wx:if="{{current == 'tab2'}}">
+ 22
+  </view>
+
+
+  <view class='list' wx:if="{{current == 'tab3'}}">
+33
+  </view>
+
+  <!-- <view class='load_more'>
+    <i-load-more tip="暂无更多数据"  loading="false" />
+  </view> -->
+</view>

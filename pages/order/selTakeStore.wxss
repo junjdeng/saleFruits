@@ -1,0 +1,14 @@
+/* pages/order/selTakeStore.wxss */
+page{background: #f5f5f5;}
+.home_header {background: #ffffff;height: 60rpx;width: 100%;color: #888888; position: fixed; z-index: 99; padding: 10rpx;align-items:center;}
+.home_header input{background: #f5f5f5; border-radius: 8rpx; padding:10rpx; }
+
+.section_title,.section{ color: #888; font-size: 24rpx; text-align: left;}
+.section_title{text-align: left;padding: 0 20rpx; width: 710rpx; line-height: 2;}
+.section{background: #fff;}
+.list .item{padding: 0 20rpx; width: 710rpx;font-size: 24rpx; color: #333; line-height: 2;  border-bottom: 1px solid #f5f5f5;}
+.list .item .store_name{font-size: 28rpx; color: #000;}
+.list .item.active{background: #d5d5d5;}
+
+.current{text-align: left;padding: 0 20rpx; width: 710rpx; line-height: 3;}
+.current span{float: right; color: #19be6b;}

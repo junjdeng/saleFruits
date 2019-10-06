@@ -1,0 +1,50 @@
+<!--pages/order/selTakeStore.wxml-->
+<view class='container'>
+   <view class='home_header'>
+    <view class='flex flex-start pd20'>
+      <view class='flex5'>
+        <input class="weui-input" placeholder="请输入提货地址" />
+      </view>
+      <view class='flex1'>
+        <i-icon type="search" size="26" style="position: relative; top:-4rpx;" />搜索
+      </view>
+    </view>
+  </view>
+
+  <view class='section_title' style='margin-top:100rpx;'>
+    当前地址
+  </view>
+  <view class='section current'>
+    厚街镇康乐北路16号商铺<span><i-icon type="refresh" />重新定位</span>
+  </view>
+
+  <view class='section_title'>
+    <i-icon type="coordinates" />附近提货门店
+  </view>
+  <view class='section list'>
+    <view class='item flex flex-start active'>
+      <view class='flex4'>
+        <view class='store_name'>东莞厚街广场店</view>
+        <view class='store_address'>厚街镇康乐北路16号商铺</view>
+        <view class='store_time'>门店营业时间：08:00-23:00</view>
+      </view>
+      <view class='flex1'>
+        <view class='store_distance'><i-icon type="coordinates" />0.3km</view>
+        <view class='store_shower'><i-icon type="createtask" />门店资质</view>
+      </view>
+    </view>
+
+    <view class='item flex flex-start'>
+      <view class='flex4'>
+        <view class='store_name'>东莞厚街广场店</view>
+        <view class='store_address'>厚街镇康乐北路16号商铺</view>
+        <view class='store_time'>门店营业时间：08:00-23:00</view>
+      </view>
+      <view class='flex1'>
+        <view class='store_distance'><i-icon type="coordinates" />0.3km</view>
+        <view class='store_shower'><i-icon type="createtask" />门店资质</view>
+      </view>
+    </view>
+
+  </view>
+</view>

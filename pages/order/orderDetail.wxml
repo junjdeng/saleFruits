@@ -1,0 +1,59 @@
+<!--pages/order/pingSureOrder.wxml-->
+<view class='container'>
+
+  <view class='take_store'>
+    <view class='store_status'>已提货
+      <span>3人团</span>
+    </view>
+    <view class='store_name'>提货门店：东莞汇景城新店
+      <span>
+        <i-icon type="customerservice" size="22" style="position: relative; top:-4rpx;" />
+      </span>
+    </view>
+    <view class='store_address'>厚街镇汇景城新城银座金华阁1楼</view>
+    <view class='store_times'>门店营业时间：08:00 - 23:00
+      <span>
+        <i-icon type="coordinates" size="22" style="position: relative; top:-4rpx;" />
+      </span>
+    </view>
+  </view>
+
+  <view class='take_time'>
+    <view>提货时间</view>
+    <view>10月1日-10月10日 08:00 - 23:00</view>
+  </view>
+
+  <view class='list'>
+    <view class='item'>
+      <view class='content flex flex-start'>
+        <view class='img_wrap flex2'>
+          <image src='../../images/bg112.jpg'></image>
+        </view>
+        <view class='flex3'>
+          <view class='title'>[3.99元！3.99元／斤]A级-巨峰葡萄</view>
+          <view class='sku'>1份／约500g</view>
+          <view class='num'>数量：x1</view>
+          <view class='price'>¥3.99
+            <text>¥9.99</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='order_data'>
+    <view>订单金额：¥3.99</view>
+    <view>创建时间：2019-10-01 00:55:09</view>
+    <view>成团时间：2019-10-01 00:55:09</view>
+    <view>提货时间：2019-10-01 00:55:09</view>
+    <view>订单编号：6378646328648248628937462864</view>
+  </view>
+
+
+  <view class='bottom_btns'>
+    <view class='flex flex-start'>
+      <view class='flex1'>申诉退款</view>
+      <view class='flex1 shopcar'>再次购买</view>
+    </view>
+  </view>
+</view>

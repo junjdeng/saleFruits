@@ -39,7 +39,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 6,
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
@@ -51,42 +51,21 @@
 				{
 					"id": 1,
 					"name": "order",
-					"pathName": "pages/order/shopCar",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 2,
-					"name": "mine",
-					"pathName": "pages/mine/selCity",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "user",
-					"pathName": "pages/index/userCode",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 4,
-					"name": "user",
-					"pathName": "pages/index/accountList",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 5,
-					"name": "detail",
-					"pathName": "pages/index/proDetail",
+					"pathName": "pages/order/pingSureOrder",
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
 					"name": "order",
-					"pathName": "pages/index/categrayProList",
+					"pathName": "pages/order/selTakeStore",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "order",
+					"pathName": "pages/order/proSureOrder",
 					"query": "",
 					"scene": null
 				}

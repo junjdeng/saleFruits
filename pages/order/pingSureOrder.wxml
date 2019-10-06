@@ -1,0 +1,89 @@
+<!--pages/order/pingSureOrder.wxml-->
+<view class='container'>
+  <view class='step_wrap'>
+    <i-steps>
+      <i-step status="process">
+        <view slot="title">
+          选择商品
+        </view>
+        <view slot="content">
+          开团／参团
+        </view>
+      </i-step>
+      <i-step status="process">
+        <view slot="title">
+          邀请好友
+        </view>
+        <view slot="content">
+          好友参团
+        </view>
+      </i-step>
+      <i-step status="process">
+        <view slot="title">
+          人满成团
+        </view>
+        <view slot="content">
+          门店提货
+        </view>
+      </i-step>
+    </i-steps>
+  </view>
+
+  <view class='take_store'>
+    <view class='store_name'>提货门店：东莞汇景城新店</view>
+    <view class='store_address'>厚街镇汇景城新城银座金华阁1楼
+      <span>修改
+        <i-icon type="enter" style="position: relative; top:-4rpx;" />
+      </span>
+    </view>
+    <view class='store_times'>门店营业时间：08:00 - 23:00</view>
+  </view>
+
+  <view class='take_time'>
+    <view>提货时间</view>
+    <view>10月1日-10月10日 08:00 - 23:00</view>
+  </view>
+
+  <view class='list'>
+    <view class='item'>
+      <view class='content flex flex-start'>
+        <view class='img_wrap flex2'>
+          <image src='../../images/bg112.jpg'></image>
+        </view>
+        <view class='flex3'>
+          <view class='title'>[3.99元！3.99元／斤]A级-巨峰葡萄</view>
+          <view class='sku'>1份／约500g</view>
+          <view class='num'>3人团</view>
+          <view class='price'>¥3.99
+            <text>¥9.99</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='pay_list'>
+    <view class='cell'>
+      <i-icon type="financial_fill" size="26" color='#ff9900' />会员钱包支付（余额：0.00）
+      <span>
+        <radio class="radio"></radio>
+      </span>
+    </view>
+    <view class='cell'>
+      <i-icon type="interactive_fill" size="26" color='#19be6b' />微信支付
+      <span>
+        <radio class="radio"></radio>
+      </span>
+    </view>
+  </view>
+
+
+   <view class='bottom_btns'>
+    <view class='flex flex-start'>
+      <view class='flex1'>
+        实付款：<span>¥3.99</span>
+      </view>
+      <view class='flex1 shopcar'>立即支付</view>
+    </view>
+  </view>
+</view>
