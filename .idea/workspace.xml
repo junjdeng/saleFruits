@@ -2,28 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1f45cfd-a3a7-42aa-9532-a4a11c34ae9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/index/couponList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index/couponList.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index/couponList.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index/couponList.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/orderDetail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/orderDetail.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/orderDetail.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/orderDetail.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/pingSureOrder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/pingSureOrder.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/pingSureOrder.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/pingSureOrder.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/proSureOrder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/proSureOrder.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/proSureOrder.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/proSureOrder.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/selTakeStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/selTakeStore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/selTakeStore.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/selTakeStore.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/find/find.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/find/find.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/find/find.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/find/find.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/pingDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/pingDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/pingDetail.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/pingDetail.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/mine/addressList.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/mine/addressList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/mine/addressList.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/mine/addressList.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/mine/mine.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/mine/mine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/mine/mine.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/mine/mine.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/order/proSureOrder.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/order/proSureOrder.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/order/proSureOrder.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/order/proSureOrder.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -127,6 +119,7 @@
       <updated>1570013440428</updated>
       <workItem from="1570013442525" duration="237000" />
       <workItem from="1570073599298" duration="252000" />
+      <workItem from="1570351955193" duration="779000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1570013563156</created>
@@ -149,14 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570073651855</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="界面">
+      <created>1570351971066</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570351971066</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="489000" />
+    <option name="totallyTimeSpent" value="1268000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1880" y="-117" width="1400" height="833" extended-state="0" />
+    <frame x="-1543" y="-120" width="1400" height="833" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18926759" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

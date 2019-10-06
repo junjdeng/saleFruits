@@ -1,0 +1,17 @@
+/* pages/order/payOk.wxss */
+page{background: #f5f5f5;}
+.header{padding: 20rpx; width: 710rpx; background: #fff;}
+.header image{width: 300rpx; height: 300rpx;border-radius: 10rpx;}
+.header .num_wrap{background: #ebd3af; height: 300rpx; border-radius: 10rpx; text-align: center;}
+.header .num_wrap .title{font-size: 30rpx; color: #333; line-height: 3;}
+.header .num_wrap .market_price{font-size: 30rpx; color: #888; text-decoration: line-through;line-height: 3;}
+.header .num_wrap .price{font-size: 60rpx; color: #ff9900;}
+
+.numbers{padding: 20rpx; width: 710rpx; background: #fff;text-align: center}
+.numbers image{width: 100rpx; height: 100rpx; border-radius: 50rpx;}
+.numbers .tips{background: #ff9900; color: #fff; font-size: 24rpx; padding: 5rpx 10rpx;position: relative; top: -20rpx; width: 50rpx; left: 35%; border-radius: 30rpx;}
+.promise{padding: 20rpx; width: 710rpx; background: #fff;border-top: 1px solid #f5f5f5;  font-size: 24rpx; text-align: center;}
+
+.share{padding: 20rpx; margin-top: 20rpx; width: 710rpx; background: #fff;text-align: center; color: #888;}
+.share .btn{background: #ff9900; color: #fff; border-radius: 50rpx; height: 100rpx; line-height: 100rpx; margin-bottom: 20rpx; }
+

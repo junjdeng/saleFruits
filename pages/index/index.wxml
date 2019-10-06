@@ -7,8 +7,8 @@
         <i-icon type="unfold" />
       </view>
       <view class='flex1'>
-        <i-icon type="service" size="26" style="margin-right:10rpx;" />
-        <i-icon type="search" size="26" />
+        <i-icon type="service" size="26" style="margin-right:10rpx;" data-url='/pages/index/categrayProList' catchtap='navTo' />
+        <i-icon type="search" size="26" data-url='/pages/index/userCode' catchtap='navTo' />
       </view>
     </view>
     <view class='pd20'>
@@ -21,17 +21,17 @@
   </view>
 
   <view class='flex flex-between page_header'>
-    <view class='flex1 item'>
+    <view class='flex1 item' data-url='/pages/index/userCode' catchtap='navTo'>
       <image src='../../images/detail1.png'></image>
       <view>会员码</view>
       <view class='sub_font'>快捷识别会员码</view>
     </view>
-    <view class='flex1 item'>
+    <view class='flex1 item' data-url='/pages/index/couponList' catchtap='navTo'>
       <image src='../../images/detail1.png'></image>
       <view>优惠券</view>
       <view class='sub_font'>0</view>
     </view>
-    <view class='flex1 item'>
+    <view class='flex1 item' data-url='/pages/index/account' catchtap='navTo'>
       <image src='../../images/detail1.png'></image>
       <view>钱包／充值</view>
       <view class='sub_font'>0</view>
@@ -59,13 +59,13 @@
   </view>
 
   <view class='list'>
-    <view class='list_header'>为你优选
+    <view class='list_header' data-url='/pages/index/categrayProList' catchtap='navTo'>为你优选
       <span>查看全部
         <i-icon type="enter" style="position: relative; top:-4rpx;" />
       </span>
     </view>
     <view class='list_content'>
-      <view class="item">
+      <view class="item" data-url='/pages/index/proDetail' catchtap='navTo'>
         <image src='../../images/bg112.jpg'></image>
         <view class='content'>
           <view class='title'>【香印】A级-下音葡萄(中)/500g</view>

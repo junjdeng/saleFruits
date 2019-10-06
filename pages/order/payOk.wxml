@@ -1,0 +1,51 @@
+<!--pages/order/payOk.wxml-->
+<view class='container'>
+  <view class='flex flex-start header'>
+    <view class='flex1'>
+      <image src='../../images/bg112.jpg'></image>
+    </view>
+    <view class='flex1'>
+      <view class='num_wrap'>
+        <view class='title'>限时抢购</view>
+        <view class='market_price'>¥3.99</view>
+        <view class='price'>¥3.99</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='flex flex-start numbers'>
+    <view class='flex1'>
+      <image src='../../images/bg112.jpg'></image>
+      <view class='tips'>团长</view>
+    </view>
+    <view class='flex1'>
+      <image src='../../images/bg112.jpg'></image>
+      <view class='tips'>团员</view>
+    </view>
+    <view class='flex1'>
+      <image src='../../images/bg112.jpg'></image>
+      <view class='tips'>团员</view>
+    </view>
+  </view>
+
+
+  <view class='flex flex-start promise'>
+    <view class='flex5'>
+      <i-icon type="success" size="18" color="#19be6b" style="position: relative; top:-4rpx;" />三无退货
+    </view>
+    <view class='flex5'>
+      <i-icon type="success" size="18" color="#19be6b" style="position: relative; top:-4rpx;" />特约供货地
+    </view>
+    <view class='flex5'>
+      <i-icon type="success" size="18" color="#19be6b" style="position: relative; top:-4rpx;" />品控质检
+    </view>
+  </view>
+
+  <view class='share'>
+    <view class='btn'>
+      邀请好友参团 23:09:09后结束
+    </view>
+    <view>分享到两个微信群，成功率高达99%</view>
+  </view>
+
+</view>

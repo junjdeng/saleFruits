@@ -128,7 +128,7 @@
         <i-icon type="homepage" size="24" color="#888888" />
         <view>首页</view>
       </view>
-      <view class='flex4 shopcar '>¥3.99 一键开团
+      <view class='flex4 shopcar' data-url='/pages/order/pingSureOrder' catchtap='navTo'>¥3.99 一键开团
         <span>(单卖价
           <text>¥4.99)</text>
         </span>

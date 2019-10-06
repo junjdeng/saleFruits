@@ -39,37 +39,8 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 3,
-			"list": [
-				{
-					"id": -1,
-					"name": "find",
-					"pathName": "pages/find/find",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 1,
-					"name": "order",
-					"pathName": "pages/order/pingSureOrder",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "order",
-					"pathName": "pages/order/selTakeStore",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 3,
-					"name": "order",
-					"pathName": "pages/order/proSureOrder",
-					"query": "",
-					"scene": null
-				}
-			]
+			"current": -1,
+			"list": []
 		}
 	}
 }

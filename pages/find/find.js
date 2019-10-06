@@ -62,5 +62,9 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  //页面跳转
+  navTo: function (e) {
+    wx.navigateTo({ url: e.currentTarget.dataset.url })
+  },
 })

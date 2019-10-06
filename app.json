@@ -13,6 +13,7 @@
     "pages/order/shopCar",
     "pages/order/pingSureOrder",
     "pages/order/proSureOrder",
+    "pages/order/payOk",
     "pages/order/selTakeStore",
     "pages/order/orderDetail",
     "pages/mine/mine",

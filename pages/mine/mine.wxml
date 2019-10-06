@@ -40,7 +40,7 @@
 
   <view class='actions'>
     <view class='flex-start'>
-      <view class='actionBtn flex1' data-url='/pages/mine/tripinfo' bindtap="navTo">
+      <view class='actionBtn flex1' data-url='/pages/mine/addressList' catchtap='navTo'>
         <image src='../../images/mine1.png'></image>
         <view>地址管理</view>
       </view>

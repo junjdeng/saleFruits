@@ -13,7 +13,7 @@
 
   <view class='list'>
     <view class='list_content'>
-      <view class="item shadow">
+      <view class="item shadow" data-url='/pages/index/pingDetail' catchtap='navTo'>
         <image src='../../images/bg112.jpg'></image>
         <view class='num'><span>3人团</span></view>
         <view class='content'>

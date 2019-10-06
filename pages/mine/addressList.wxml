@@ -10,5 +10,5 @@
     </view>
   </view>
 
-  <view class='bottom_btn green'><i-icon type="add" size="18" style='position:relative; top:-4rpx;' />新增收货地址</view>
+  <view class='bottom_btn green' data-url='/pages/mine/addressEdit' catchtap='navTo' ><i-icon type="add" size="18" style='position:relative; top:-4rpx;' />新增收货地址</view>
 </view>

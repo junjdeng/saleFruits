@@ -1,20 +1,21 @@
 <!--pages/order/pingSureOrder.wxml-->
 <view class='container'>
-
-
-  <view class='take_store'>
-    <view class='store_name'>提货门店：东莞汇景城新店</view>
-    <view class='store_address'>厚街镇汇景城新城银座金华阁1楼
-      <span>修改
-        <i-icon type="enter" style="position: relative; top:-4rpx;" />
-      </span>
+  <view class='address'>
+    <view class='flex flex-start'>
+      <view class='flex5'>
+        <view>收货地址：东莞市会展中央1栋2334</view>
+        <view class='sub'><span>家</span>邓军军先生 137****8656</view>
+      </view>
+      <view class='flex1' class='action'><i-icon size="18"  type="enter" /></view>
     </view>
-    <view class='store_times'>门店营业时间：08:00 - 23:00</view>
+  </view>
+
+  <view class='take_coupon'>
+    <view>账户中暂无有效优惠券</view>
   </view>
 
   <view class='take_time'>
-    <view>提货时间</view>
-    <view>10月1日-10月10日 08:00 - 23:00</view>
+    <view>配送时间<span>预计10-08 12:12送达<i-icon size="18"  type="enter" style="position: relative; top:-4rpx;"/></span></view>
   </view>
 
   <view class='list'>
@@ -23,15 +24,54 @@
         <view class='img_wrap flex2'>
           <image src='../../images/bg112.jpg'></image>
         </view>
-        <view class='flex3'>
+        <view class='flex4'>
           <view class='title'>[3.99元！3.99元／斤]A级-巨峰葡萄</view>
           <view class='sku'>1份／约500g</view>
-          <view class='num'>3人团</view>
-          <view class='price'>¥3.99
+          <view class='price'>数量：x1
             <text>¥9.99</text>
           </view>
         </view>
       </view>
+    </view>
+   <view class='item'>
+      <view class='content flex flex-start'>
+        <view class='img_wrap flex2'>
+          <image src='../../images/bg112.jpg'></image>
+        </view>
+        <view class='flex4'>
+          <view class='title'>[3.99元！3.99元／斤]A级-巨峰葡萄</view>
+          <view class='sku'>1份／约500g</view>
+          <view class='price'>数量：x1
+            <text>¥9.99</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+<view class='take_other'>
+    <view>发票抬头：<span>不需要发票<i-icon size="18"  type="enter" style="position: relative; top:-4rpx;"/></span></view>
+     <view>备注留言：<input class="weui-input" maxlength="10" placeholder="请注明是否需要清洗" /></view>
+  </view>
+
+<view class='data_list'>
+    <view class='cell'>
+      商品金额
+      <span>
+        ¥55.88
+      </span>
+    </view>
+    <view class='cell'>
+      包装费
+      <span>
+        ¥0.50
+      </span>
+    </view>
+     <view class='cell'>
+      运费
+      <span>
+        ¥0.00
+      </span>
     </view>
   </view>
 
